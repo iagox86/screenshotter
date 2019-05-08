@@ -25,6 +25,8 @@ if(REAL_LENGTH1 != REAL_LENGTH2)
   puts
   puts("** Warning: videos are not the same length, probably due to different frame rates. YMMV!")
   puts
+  puts "(press enter to continue)"
+  gets
 end
 
 0.upto(N-1) do
