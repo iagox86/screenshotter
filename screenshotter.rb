@@ -21,8 +21,10 @@ puts "* #{FILE1} -- #{REAL_LENGTH1} -- #{LENGTH1}s"
 puts "* #{FILE2} -- #{REAL_LENGTH2} -- #{LENGTH2}s"
 puts
 
-if(LENGTH1 != LENGTH2)
-  puts("Warning: videos are not the same length, probably due to different frame rates. YMMV!")
+if(REAL_LENGTH1 != REAL_LENGTH2)
+  puts
+  puts("** Warning: videos are not the same length, probably due to different frame rates. YMMV!")
+  puts
 end
 
 0.upto(N-1) do
